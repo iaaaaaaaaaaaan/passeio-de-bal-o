@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MyQuiz Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      const firebaseConfig = {
+  apiKey: "AIzaSyAn-Tp1ipGDDW_ZyUbTTR85kCs2bPNfOCg",
+  authDomain: "andando-de-balao.firebaseapp.com",
+  databaseURL: "https://andando-de-balao-default-rtdb.firebaseio.com",
+  projectId: "andando-de-balao",
+  storageBucket: "andando-de-balao.appspot.com",
+  messagingSenderId: "777149060805",
+  appId: "1:777149060805:web:b83775125a65a85c04c2ac"
+};
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+  
+      // Your web app's Firebase configuration
+    
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
+</html>
